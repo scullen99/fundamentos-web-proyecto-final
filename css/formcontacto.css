@@ -1,0 +1,28 @@
+main {
+    justify-content: center;
+}
+
+.box {
+    height: auto;
+    width: auto;
+    flex: 1;
+}
+
+.box input {
+    margin-bottom: 2rem;
+}
+
+.box textarea {
+    margin-bottom: 2rem;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.box h1 {
+    margin-top: 0;
+}
+
+.box a {
+    text-align: center;
+    text-decoration: underline;
+}

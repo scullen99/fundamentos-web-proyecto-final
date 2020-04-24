@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Netravel | Bienvenid@</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <title>Netravel</title>
+</head>
+<body>
+    <header>
+        <section class="logo"><i class="logo fa fa-plane"></i>Netravel</section>
+        <div class="wrapper">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destacados.html">Destacados</a></li>
+                <li><a href="formcontacto.html">Contacto</a></li>
+            </ul>
+            <a href="login.html" class="loginInicio">Login</a>
+        </div>
+    </header>
+    <main>
+        <section class="row">
+            <form class="box searchbox" onsubmit="formSubmitted()">
+                <h1>Busca tu viaje</h1>
+                <input type="text" id="destination" placeholder="Destino">
+                <input type="text" id="departure_date" onfocus="(this.type='date')" placeholder="Fecha de ida">
+                <input type="text" id="arrival_date" onfocus="(this.type='date')" placeholder="Fecha de vuelta">
+                <button action="submit">Enviar</button>
+            </form>
+            <section class="box quote bg-none"><h1>Te buscamos tu viaje al mejor precio</h1></section>
+        </section>
+    </main>
+    <section class="destacado">
+        <div class="carrusel">
+            <button class="botonCarruselIzquierdo" onclick="">&leftarrow;</button>
+            <div class="contenedorCarrusel">
+                <ul class="trackCarrusel">
+                    <li class="slideCarrusel slideActual">
+                        <img class="imagenCarrusel" src="img/cites/dubai.jpg" alt="">
+                        <span class="description">Un destino donde se aúnan la historia, la cultura moderna, la aventura, las compras de lujo y el entretenimiento. Asiste a una representación en el Palacio de la Ópera de Dubái, contempla el centro de la ciudad desde lo alto del Burj Khalifa o pasa la tarde explorando los zocos que jalonan la ría...</span>
+                    </li>
+                    <li class="slideCarrusel">
+                        <img class="imagenCarrusel" src="img/cites/london.jpg" alt="">
+                        <span class="description">
+                            Desde arte hasta fantásticos museos, arquitectura deslumbrante, esplendor real, diversidad, maravillosos parques y un dinamismo incontenible...
+                       </span>
+                    </li>
+                    <li class="slideCarrusel">
+                        <img class="imagenCarrusel" src="img/cites/los-angeles.jpg" alt="">
+                        <span class="description">Visita estudios cinematográficos, desliza las manos en las huellas de los famosos en el Grauman's Chinese Theatre o date el gustazo de ver famosos en alguno de los candentes locales nocturnos de Los Ángeles...</span>
+                    </li>
+                </ul>
+            </div>
+            <button class="botonCarruselDerecho" onclick="">&rightarrow;</button>
+        </div>
+        </section>
+
+    <footer>
+        <div class="signature"><hr>&copy;2019 - Néstor Mandela<hr></div>
+        <a href="politicacookies.html">Política de Cookies</a>
+    </footer>
+        
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

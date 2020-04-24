@@ -1,0 +1,17 @@
+main {
+    justify-content: center;
+}
+
+.box {
+    height: auto;
+    width: auto;
+    min-width: 25%;
+}
+
+.box input {
+    margin-bottom: 2rem;
+}
+
+.box h1 {
+    margin-top: 0;
+}
